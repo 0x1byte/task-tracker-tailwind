@@ -26,7 +26,7 @@ const AddTask = () => {
                     <label className="font-yekan ml-1" htmlFor="save-task">انجام شده؟</label>
                     <input type="checkbox" className="checked:bg-blue-600 checked:border-transparent" name="task-checkbox" id="task-checkbox" onClick={(e) => setTaskState(!taskState)} />
                 </div>
-                <button type="submit" className="mt-3 font-yekan ring-2 rounded-xl px-3 py-1 hover:bg-blue-500 hover:text-white" id="save-task" onClick={(e) => handleSubmit(e)}>ذخیره</button>
+                <button type="submit" className="mt-3 font-yekan ring-2 rounded-xl px-3 py-1" id="save-task" onClick={(e) => handleSubmit(e)}>ذخیره</button>
             </div>
         </div>
     )
