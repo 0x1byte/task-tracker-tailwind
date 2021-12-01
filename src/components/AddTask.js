@@ -21,7 +21,7 @@ const AddTask = () => {
     return (
         <div className="py-4 pr-8 w-80">
             <input type="text" className="border border-transparent shadow-sm rounded-md px-2 py-0.5 font-yekan mb-3 w-full ring-2 outline-none focus:ring-red-500" name="task-text" id="task-text" placeholder="نام کار" onChange={(e) => setTask(e.target.value)} />
-            <div className="Task-Control">
+            <div className="flex justify-between">
                 <div className="flex items-center">
                     <label className="font-yekan ml-1" htmlFor="save-task">انجام شده؟</label>
                     <input type="checkbox" className="checked:bg-blue-600 checked:border-transparent" name="task-checkbox" id="task-checkbox" onClick={(e) => setTaskState(!taskState)} />
